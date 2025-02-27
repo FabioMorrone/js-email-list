@@ -1,5 +1,5 @@
 
-const listaMailEl = document.querySelector('Mail')
+const lista_MailEl = document.querySelector('lista_Mail')
 
 
 
@@ -13,9 +13,17 @@ for (let i = 0; i < 10; i++) {
     .then(response => response.json())
     .then(data => {
         console.log(data.response);    
+
+        const li = document.createElement('li');
+      
+        
+        listaMailEl.appendChild(li)
+
+        console.log(li.innerHTML);
+
     })
-    const li = document.createElement('li');
-    li.append(listaMailEl)
-    listaMailEl.appendChild(li)
-       
+
+
+
 }
+
