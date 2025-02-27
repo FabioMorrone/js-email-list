@@ -1,5 +1,5 @@
 
-const lista_MailEl = document.querySelector('lista_Mail')
+const lista_MailEl = document.querySelector('.lista_Mail')
 
 
 
