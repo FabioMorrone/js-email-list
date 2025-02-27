@@ -14,5 +14,8 @@ for (let i = 0; i < 10; i++) {
     .then(data => {
         console.log(data.response);    
     })
-    .catch()    
+    const li = document.createElement('li');
+    li.append(listaMailEl)
+    listaMailEl.appendChild(li)
+       
 }
