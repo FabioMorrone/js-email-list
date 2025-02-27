@@ -15,11 +15,9 @@ for (let i = 0; i < 10; i++) {
         console.log(data.response);    
 
         const li = document.createElement('li');
-      
+        lista_MailEl.appendChild(li)
         
-        listaMailEl.appendChild(li)
-
-        console.log(li.innerHTML);
+        li.innerHTML = lista_MailEl
 
     })
 
